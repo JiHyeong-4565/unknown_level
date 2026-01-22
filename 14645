@@ -1,0 +1,11 @@
+import sys
+
+N,M = map(int,input().split())
+
+total = M
+for i in range(N):
+    A,B = map(int,input().split())
+    total += A
+    total -= B
+
+print("비와이")
