@@ -1,0 +1,14 @@
+import sys
+
+B = sys.stdin.readline()
+
+if B[0] == "M":
+    print("MatKor")
+elif B[0] == "W":
+    print("WiCys")
+elif B[0] == "C":
+    print("CyKor")
+elif B[0] == "A":
+    print("AlKor")
+elif B[0]=="$":
+    print("$clear")
