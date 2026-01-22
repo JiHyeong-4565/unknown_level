@@ -1,0 +1,16 @@
+import sys
+
+N,A,B = map(int,sys.stdin.readline().split())
+
+bus_time = A
+if B < N:
+    subway_time = sys.maxsize
+else:
+    subway_time = B
+
+if bus_time < subway_time:
+    print("Bus")
+elif bus_time > subway_time:
+    print("Subway")
+else:
+    print("Anything")
