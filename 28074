@@ -1,0 +1,9 @@
+import sys
+
+N = sys.stdin.readline()
+
+for i in "MOBIS":
+    if i not in N:
+        print("NO")
+        exit()
+print("YES")
